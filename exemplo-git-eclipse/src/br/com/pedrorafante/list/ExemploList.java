@@ -1,6 +1,7 @@
 package br.com.pedrorafante.list;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class ExemploList {
@@ -16,6 +17,13 @@ public class ExemploList {
 		nomes.add("Luanna");
 		nomes.add("Fabíola");
 		nomes.add("Sanfona");
+		
+		//Listar a lista conforme foi adicionada
+		System.out.println(nomes);
+		
+		//Ordenar a Lista de forma alfabetica
+		Collections.sort(nomes);
+		System.out.println(nomes);
 		
 	}
 
