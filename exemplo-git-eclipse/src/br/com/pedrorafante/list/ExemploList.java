@@ -39,6 +39,9 @@ public class ExemploList {
 		nomes.remove("Larissa");
 		System.out.println(nomes);
 		
+		String nome = nomes.get(1);
+		System.out.println(nome);
+		
 		
 		
 	}
