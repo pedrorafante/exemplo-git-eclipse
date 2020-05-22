@@ -19,11 +19,21 @@ public class ExemploList {
 		nomes.add("Sanfona");
 		
 		//Listar a lista conforme foi adicionada
+        System.out.println(nomes);
+				
+		nomes.set(2, "Rafante");
+		
+		//Listar a lista conforme foi adicionada
 		System.out.println(nomes);
 		
 		//Ordenar a Lista de forma alfabetica
 		Collections.sort(nomes);
 		System.out.println(nomes);
+		
+		nomes.set(2, "Larissa");
+		System.out.println(nomes);
+		
+		
 		
 	}
 
