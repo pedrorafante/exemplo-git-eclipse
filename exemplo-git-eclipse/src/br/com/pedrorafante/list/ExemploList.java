@@ -33,6 +33,12 @@ public class ExemploList {
 		nomes.set(2, "Larissa");
 		System.out.println(nomes);
 		
+		nomes.remove(3);
+		System.out.println(nomes);
+		
+		nomes.remove("Larissa");
+		System.out.println(nomes);
+		
 		
 		
 	}
