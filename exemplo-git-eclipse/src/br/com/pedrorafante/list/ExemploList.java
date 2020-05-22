@@ -45,7 +45,8 @@ public class ExemploList {
 		int tamanhoLista = nomes.size();
 		System.out.println(tamanhoLista);
 		
-		
+		boolean temPedro = nome.contains("Fernando");
+		System.out.println(temPedro);
 		
 	}
 
