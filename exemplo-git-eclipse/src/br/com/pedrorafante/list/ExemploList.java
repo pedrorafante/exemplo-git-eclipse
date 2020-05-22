@@ -42,6 +42,9 @@ public class ExemploList {
 		String nome = nomes.get(1);
 		System.out.println(nome);
 		
+		int tamanhoLista = nomes.size();
+		System.out.println(tamanhoLista);
+		
 		
 		
 	}
